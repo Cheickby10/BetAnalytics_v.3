@@ -5,7 +5,6 @@ sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
 import streamlit as st
 from core.environment import CrashEnv
 from core.bayesian import EdgeEstimator
-from risk.kelly import kelly
 
 st.title("BetAnalytics Pro AI Dashboard")
 
