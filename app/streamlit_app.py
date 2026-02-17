@@ -24,7 +24,6 @@ for _ in range(rounds):
         wins+=1
 
 edge = est.estimate()
-fraction = kelly(edge, action)
 
 st.metric("Win Rate",wins/rounds)
 st.metric("Bayesian Edge",edge)
